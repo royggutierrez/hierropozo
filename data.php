@@ -6,16 +6,26 @@
 </head>
 <body>
   <a href="index.html">Volver a inicio</a>
-  <div>
   <?php
+
+
+echo "Tu correo es ";
+echo $_REQUEST['email'];
+echo "\n"
+echo "Tu Nombre de usuario es ";
+echo $_REQUEST['username'];
+echo "\n"
+echo "Tu Contraseña es ";
+echo $_REQUEST['password'];
+echo "\n"
+  /*
     $conexion  = mysqli_conect("localhost", "root", "gutierrez") or die ("Problemas en la conexion");
     mysqli_query($conexion, "insert into alumnos(email, username, password) values ('$_REQUEST[email]', '$_REQUEST[username]', '$_REQUEST[password]')")
     or die ("Problemas en el SELECT" . mysqli_error($conexion));
 
     mysqli_close($conexion);
 
-    echo "El alumno ha sido registrado con exito"
+    echo "El alumno ha sido registrado con exito"*/
   ?>
-  </div>
 </body>
 </html>
