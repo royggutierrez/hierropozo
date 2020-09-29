@@ -7,9 +7,9 @@
 <body>
   <?php
     echo "Tu correo es : ";
-    echo $_REQUEST['email'] "\n";
+    echo $_REQUEST['email'];
     echo "Tu nombre de usuario es : ";
-    echo $_REQUEST['username']"\n";
+    echo $_REQUEST['username'];
     echo "Tu contraseña es : ";
     echo $_REQUEST['password'];
 ?>
