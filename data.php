@@ -7,12 +7,10 @@
 <body>
   <?php
     echo "Tu correo es : ";
-    echo $_REQUEST['email'];
-    <br>
+    echo $_REQUEST['email']\n;
     echo "Tu nombre de usuario es : ";
-    echo $_REQUEST['username'];
+    echo $_REQUEST['username'] \n;
     echo "Tu contraseña es : ";
-    <br>
     echo $_REQUEST['password'];
 ?>
 </body>
