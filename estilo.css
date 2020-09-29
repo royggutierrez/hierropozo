@@ -80,3 +80,7 @@ p {
 li {
   font-size: 20px;
 }
+
+input {
+  line-height: 4px;
+}
